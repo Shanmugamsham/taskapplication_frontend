@@ -1,0 +1,209 @@
+.message{
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    color: red;
+    text-align:center;
+}
+.btns{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:white;
+    background-color:green;
+    width:100%;
+
+}
+.btnl{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    background-color:lightblue;
+    width:100%;
+
+}
+.heading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:38px;
+    color:rgb(0, 0, 0);
+    text-align:center;
+}
+strong{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    margin:5px;
+}
+.btnh{
+    font-family:'Times New Roman', Times, serif;
+    font-size:18px;
+    color:rgb(0, 0, 0);
+    background-color:lightblue;
+
+}
+.nav-bg{
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    background-color:rgb(16, 194, 137);
+}
+.loginpage{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    margin-left: auto;
+
+}
+
+.btndelete{
+    height: 38px;
+    padding: 0 24px 0 16px;
+    letter-spacing:1px;
+    border-radius: 24px;
+    cursor: pointer;
+   
+    color:white;
+    background-color:red;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    margin-top:10px;
+    margin-right:25px;
+}
+
+
+.btnedit{
+    height: 38px;
+    padding: 0 24px 0 16px;
+    letter-spacing:1px;
+    border-radius: 24px;
+    cursor: pointer;
+    
+    color:white;
+    background-color:rgb(17, 17, 17);
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    margin-top:10px;
+    margin-right:25px;
+}
+
+
+.btncomplete{
+    height: 38px;
+    padding: 0 24px 0 16px;
+    letter-spacing:1px;
+    border-radius: 24px;
+    cursor: pointer;
+   
+    color:white;
+    background-color:green;
+    font-family:'Times New Roman', Times, serif;
+    font-size:18px;
+    margin-top:10px;
+    margin-right:25px;
+}
+
+.ttask{
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    color:red;
+    letter-spacing:1px;
+
+}
+
+.tctask{
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    color:green;
+    letter-spacing:1px;
+
+}
+.tasks{
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    margin-top:10px;
+    margin-right:25px;
+    padding:10px;
+    letter-spacing:1px;
+}
+.number{
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    margin-top:10px;
+    margin-right:25px;
+    padding:10px;
+    letter-spacing:1px;
+}
+.taskname{
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    
+    margin-right:40px;
+    padding:10px;
+}
+.foundmsg{
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    margin-top:10px;
+    margin-right:50px;
+    padding:10px;
+    text-align:center;
+    color:red;
+    letter-spacing:1px;
+}
+.btnse{
+
+    color:yellow;
+    
+  
+}
+.indexs{
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    letter-spacing:1px;
+    color: rgb(136, 127, 255);
+}
+
+.heading1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+}
+
+table{
+    font-family:'Times New Roman', Times, serif;
+    font-size:10px;
+    text-align: center;
+    border:2px solid black;
+    box-shadow: 10px 10px lightblue;
+    margin-bottom:60px;
+    margin-top:10px;
+   
+}
+th{
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    text-align: center;
+    padding:25px;
+    border:1px solid black;
+    
+}
+td{
+    font-family:'Times New Roman', Times, serif;
+    font-size:25px;
+    text-align:center;
+    padding:20px;
+    border:1px solid black;
+
+}
+.bg-image{
+    background-image:url("https://res.cloudinary.com/ddjjx7t57/image/upload/v1707806625/20244486_6252653_s1zoc6.jpg");
+    background-size:cover;
+    height:100vh;
+    width:100%;
+}
+.homeheading{
+    font-family:'Times New Roman', Times, serif;
+    font-size:100px;
+    text-align:center;
+    color:white;
+    margin-top:250px;
+    
+}
