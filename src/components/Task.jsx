@@ -54,7 +54,7 @@ const Task = () => {
                                 !isloading&&tasks.length===0?(<p className='foundmsg'>NO TASK FOUND</p>):(
                                    <>
                                     <div className='container d-flex  flex-row justify-content-between'>
-                                      <p className='ttask'>Totel Task :{tasks.length}</p>
+                                      <p className='ttask'>Total Task :{tasks.length}</p>
                                       <p className='tctask'>Completed Task: {completedtasks.length}</p>
                                       </div>
   <div className='container d-flex  flex-row justify-content-center'>                                
