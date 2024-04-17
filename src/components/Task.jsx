@@ -61,10 +61,10 @@ const Task = () => {
 <table >
   <tr>
     <th>No</th>
-    <th>taskname</th>
-    <th>task complition</th>
-    <th>update task</th>
-    <th>delete task</th>
+    <th>Task Name</th>
+    <th>Task Complition</th>
+    <th>Edit Task</th>
+    <th>Delete Task</th>
     
   </tr>
   {tasks.map((task,index)=>(
