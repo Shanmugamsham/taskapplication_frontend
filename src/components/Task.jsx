@@ -90,7 +90,7 @@ const Task = () => {
                                     <div className='container d-flex  flex-row justify-content-between'>
                                       <p className='ttask m-3'>Total Task :{tasks.length}</p>
                                       <p className='tctask m-3 mb-5'>Completed Task: {completedtasks.length}</p>
-                                      <input type="email" className="form-control inputforreach"  placeholder='Seach' onChange={filtersdata} />
+                                      <input type="email" className="form-control inputforreach"  placeholder='Search' onChange={filtersdata} />
                                       </div>
                                  
 
