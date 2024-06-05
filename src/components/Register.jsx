@@ -8,29 +8,48 @@ const Register = () => {
       isloadingregister,erroeemailregister,isdata}=useContext(createUsercontextdata)
     return (
       <div>
-       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container-fluid">
-        <a className="navbar-brand" href="#">TASK MANAGEMENT</a>
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav loginpage">
-              
-          <Link to={"/"} >{isdata?"":<button className="btnh m-3" >Home</button>}</Link>
-            <Link to={"/task"} >{isdata?<button className="btnh m-3" >Task</button>:""}</Link>
-            <Link to={"/login"} >{isdata?"":<button className="btnh m-3" >Login</button>}</Link>
-            <Link to={"/register"} >{isdata?"":<button className="btnh m-3" >SignUp</button>}</Link>
-           
-          </div>
-         
-        </div>
+        
+          
+<nav className="navbar navbar-expand-lg navbar-dark  bg-dark">
+  <div className="container-fluid">
+  <a className="navbar-brand" href="#">TASK MANAGEMENT</a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className="collapse navbar-collapse  " id="navbarNav">
+      <div className='navbarsize loginpage'>
+      <ul className="navbar-nav">
+        <li className="nav-item ">
+        <Link to={"/"} >{isdata?"":<button className="btnh m-3" >Home</button>}</Link>
+        </li>
+        <li className="nav-item  ">
+        <Link to={"/task"} >{isdata?<button className="btnh m-3" >Task</button>:""}</Link>
+        </li>
+        <li className="nav-item  ">
+        <Link to={"/login"} >{isdata?"":<button className="btnh m-3" >Login</button>}</Link>         
+        
+        </li>
+        <Link to={"/register"} >{isdata?"":<button className="btnh m-3" >SignUp</button>}</Link>
+        <li className="nav-item  ">
+     
+        </li>
+      </ul>
       </div>
-    </nav> 
+    </div>
+  </div>
+</nav> 
 
-         
-        <div className="d-flex justify-content-center align-items-center bg-secondary vh-100">
 
 
-       
-            <div className='bg-white p-3 rounded w-25'>
+
+
+
+
+           
+<div className='bg-secondary vh-100 loginform'>
+<div className='loginsize'>
+        <div className="d-flex justify-content-center align-items-center ">
+            <div className='bg-white p-3 rounded w-100'>
                 <h2 className='heading'>Register</h2>
            <form onSubmit={handlesubmitforregister}>
   <div className="mb-3">
@@ -58,7 +77,8 @@ const Register = () => {
 </form>
  <Link to={"/login"} ><button className="btnl mt-2">Login</button></Link>
 </div>
-
+</div>
+</div>
         </div>
         </div>
     );
